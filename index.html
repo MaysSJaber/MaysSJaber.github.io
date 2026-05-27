@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mays Jaber - Computer Engineering student portfolio focused on back-end development, C++, Java, and problem solving.">
+    <title>Mays Jaber | Computer Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader" aria-label="Loading portfolio">
+        <div class="loader-ring"></div>
+        <span>Mays Jaber</span>
+    </div>
+
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="#home" class="logo" aria-label="Mays Jaber home">MJ</a>
+            <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-content reveal">
+                <p class="eyebrow">First-Year Computer Engineering Student</p>
+                <h1>Mays Jaber</h1>
+                <p class="typing-line">
+                    <span id="typing-text"></span><span class="typing-cursor">|</span>
+                </p>
+                <p class="hero-description">
+                    Computer Engineering student with a passion for Back-End development and problem solving.
+                    Currently learning and building projects using C++ and Java, while improving my programming
+                    and debugging skills through practical work and continuous learning.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-panel reveal">
+                <div class="code-card">
+                    <div class="code-card-top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <pre><code>student.name = "Mays Jaber";
+focus.area = "Back-End";
+languages = ["C++", "Java"];
+goal = "Build useful systems";</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="section-heading reveal">
+                <p class="eyebrow">About Me</p>
+                <h2>Learning by building clear, practical software.</h2>
+            </div>
+            <div class="about-grid">
+                <p class="about-text reveal">
+                    I am a first-year Computer Engineering student interested in back-end development, problem
+                    solving, and building console applications using C++ and Java. I enjoy turning ideas into
+                    structured programs, practicing clean logic, working with files, and improving my debugging
+                    skills through hands-on projects.
+                </p>
+                <div class="about-stats reveal">
+                    <div>
+                        <strong>3</strong>
+                        <span>Featured Projects</span>
+                    </div>
+                    <div>
+                        <strong>2</strong>
+                        <span>Main Languages</span>
+                    </div>
+                    <div>
+                        <strong>8+</strong>
+                        <span>Core Skills</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Skills</p>
+                <h2>Growing foundations for back-end development.</h2>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card reveal">C++</article>
+                <article class="skill-card reveal">Java</article>
+                <article class="skill-card reveal">OOP</article>
+                <article class="skill-card reveal">Problem Solving</article>
+                <article class="skill-card reveal">File Handling</article>
+                <article class="skill-card reveal">Debugging</article>
+                <article class="skill-card reveal">Console Applications</article>
+                <article class="skill-card reveal">Git &amp; GitHub</article>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Projects</p>
+                <h2>Console applications built with C++ fundamentals.</h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card featured reveal">
+                    <div class="project-content">
+                        <span class="project-tag">C++ Console System</span>
+                        <h3>Bank Management System</h3>
+                        <p>
+                            Developed a complete console-based Bank Management System using C++ with persistent
+                            file storage, transaction handling, and professional console table formatting.
+                        </p>
+                        <div class="project-columns">
+                            <div>
+                                <h4>Key Features</h4>
+                                <ul>
+                                    <li>Add, update, delete, and search clients</li>
+                                    <li>Deposit and withdraw operations</li>
+                                    <li>File handling using fstream</li>
+                                    <li>Persistent data storage</li>
+                                    <li>Input validation</li>
+                                    <li>Transaction management</li>
+                                    <li>Dynamic data handling using vectors</li>
+                                    <li>CRUD operations implementation</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Technical Concepts</h4>
+                                <ul>
+                                    <li>Structs</li>
+                                    <li>Vectors</li>
+                                    <li>File I/O</li>
+                                    <li>String manipulation</li>
+                                    <li>Data validation</li>
+                                    <li>Functions</li>
+                                    <li>Enums</li>
+                                    <li>Switch-case</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="https://github.com/MaysSJaber/BankSystem" class="btn btn-primary project-btn" target="_blank" rel="noopener noreferrer">View Repository</a>
+                    </div>
+                    <div class="gallery">
+                        <figure>
+                            <img src="assets/bank-transaction-menu.jpg" alt="Bank Management System transaction menu screenshot">
+                        </figure>
+                        <figure>
+                            <img src="assets/bank-main-menu.jpg" alt="Bank Management System main menu screenshot">
+                        </figure>
+                        <figure class="gallery-placeholder">
+                            <span>More screenshots can be added here</span>
+                        </figure>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-content">
+                        <span class="project-tag">C++ Quiz Game</span>
+                        <h3>Math Game</h3>
+                        <p>
+                            A console-based math quiz game developed in C++ to practice programming fundamentals
+                            and logical thinking.
+                        </p>
+                        <div class="project-columns compact">
+                            <div>
+                                <h4>Key Features</h4>
+                                <ul>
+                                    <li>Random math questions</li>
+                                    <li>Difficulty levels</li>
+                                    <li>Arithmetic operations</li>
+                                    <li>Score tracking</li>
+                                    <li>Replay system</li>
+                                    <li>Pass/fail logic</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Technical Concepts</h4>
+                                <ul>
+                                    <li>Random number generation</li>
+                                    <li>Structs and enums</li>
+                                    <li>Loops and functions</li>
+                                    <li>Conditional logic</li>
+                                    <li>Boolean logic</li>
+                                    <li>Game loops</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mini-gallery">
+                            <img src="assets/math-game-pass.jpg" alt="Math Game pass result screenshot">
+                            <img src="assets/math-game-fail.jpg" alt="Math Game fail result screenshot">
+                        </div>
+                        <a href="https://github.com/MaysSJaber/Math-Game" class="btn btn-secondary project-btn" target="_blank" rel="noopener noreferrer">View Repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-content">
+                        <span class="project-tag">C++ Game Logic</span>
+                        <h3>Rock Paper Scissors Game</h3>
+                        <p>
+                            A complete console-based Rock Paper Scissors game developed using C++ with player vs
+                            computer gameplay and structured rounds.
+                        </p>
+                        <div class="project-columns compact">
+                            <div>
+                                <h4>Key Features</h4>
+                                <ul>
+                                    <li>Player vs Computer gameplay</li>
+                                    <li>Random AI choices</li>
+                                    <li>Score tracking</li>
+                                    <li>Replay functionality</li>
+                                    <li>Winner detection</li>
+                                    <li>Console UI formatting</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Technical Concepts</h4>
+                                <ul>
+                                    <li>Enums and structs</li>
+                                    <li>Loops and functions</li>
+                                    <li>Conditional logic</li>
+                                    <li>Random number generation</li>
+                                    <li>Game logic</li>
+                                    <li>Switch-case statements</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mini-gallery">
+                            <img src="assets/rps-win.jpg" alt="Rock Paper Scissors winning round screenshot">
+                            <img src="assets/rps-loss.jpg" alt="Rock Paper Scissors losing round screenshot">
+                        </div>
+                        <a href="https://github.com/MaysSJaber/Rock-Paper-Secciors-Game" class="btn btn-secondary project-btn" target="_blank" rel="noopener noreferrer">View Repository</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Contact</p>
+                <h2>Let’s connect and build something useful.</h2>
+            </div>
+            <div class="contact-grid">
+                <a class="contact-card reveal" href="https://linkedin.com/in/maysjaberr" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M6.9 8.9H3.6v11h3.3v-11ZM7.2 5.5a1.9 1.9 0 1 0-3.8 0 1.9 1.9 0 0 0 3.8 0Zm13.2 8.1c0-3.3-1.8-5-4.2-5-1.9 0-2.8 1.1-3.3 1.8V8.9H9.7v11H13v-6.1c0-1.6.3-3.2 2.3-3.2 1.9 0 1.9 1.8 1.9 3.3v6h3.3v-6.3Z"/>
+                        </svg>
+                    </span>
+                    <div>
+                        <strong>LinkedIn</strong>
+                        <small>linkedin.com/in/maysjaberr</small>
+                    </div>
+                </a>
+                <a class="contact-card reveal" href="https://github.com/MaysSJaber" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M12 2.4a9.8 9.8 0 0 0-3.1 19.1c.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 0 1.6 1.1 1.6 1.1.9 1.6 2.5 1.1 3 .9.1-.7.4-1.1.7-1.4-2.3-.3-4.7-1.2-4.7-5a3.9 3.9 0 0 1 1-2.7 3.7 3.7 0 0 1 .1-2.7s.9-.3 2.8 1a9.5 9.5 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.2.2 2.2.1 2.7a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.7 5 .4.3.7 1 .7 2V21c0 .3.2.6.8.5A9.8 9.8 0 0 0 12 2.4Z"/>
+                        </svg>
+                    </span>
+                    <div>
+                        <strong>GitHub</strong>
+                        <small>github.com/MaysSJaber</small>
+                    </div>
+                </a>
+                <a class="contact-card reveal" href="mailto:maysjaberr@gmail.com">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M3.8 5.6h16.4c.9 0 1.6.7 1.6 1.6v9.6c0 .9-.7 1.6-1.6 1.6H3.8c-.9 0-1.6-.7-1.6-1.6V7.2c0-.9.7-1.6 1.6-1.6Zm8.2 7.1 7.2-5.3H4.8l7.2 5.3Zm-7.9 3.9h15.8V8.8l-7.4 5.4a.9.9 0 0 1-1 0L4.1 8.8v7.8Z"/>
+                        </svg>
+                    </span>
+                    <div>
+                        <strong>Email</strong>
+                        <small>maysjaberr@gmail.com</small>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <footer class="footer">
+        <p>Designed &amp; Developed by Mays Jaber</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
